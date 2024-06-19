@@ -1,0 +1,42 @@
+[
+  {
+      "name": "Introduction to Programming",
+      "prerequisites": []
+  },
+  {
+      "name": "Data Structures",
+      "prerequisites": ["Introduction to Programming"]
+  },
+  {
+      "name": "Algorithms",
+      "prerequisites": ["Data Structures"]
+  },
+  {
+      "name": "Operating Systems",
+      "prerequisites": ["Data Structures"]
+  },
+  {
+      "name": "Databases",
+      "prerequisites": ["Data Structures"]
+  },
+  {
+      "name": "Computer Networks",
+      "prerequisites": ["Operating Systems"]
+  },
+  {
+      "name": "Machine Learning",
+      "prerequisites": ["Algorithms", "Data Structures"]
+  },
+  {
+      "name": "Artificial Intelligence",
+      "prerequisites": ["Machine Learning"]
+  },
+  {
+      "name": "Software Engineering",
+      "prerequisites": ["Introduction to Programming"]
+  },
+  {
+      "name": "Web Development",
+      "prerequisites": ["Introduction to Programming"]
+  }
+]
